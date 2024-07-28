@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Vote Counter</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1 *ngIf="seggioCorrente" style="text-align: center" [translate]="'seggio'"
+      [translateParams]="{numseggio: seggioCorrente.numseggio}"></h1>
+  <h1 *ngIf="!seggioCorrente" style="text-align: center" [translate]="'no_seggio_sel'"></h1>
+</ion-content>

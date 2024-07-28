@@ -1,0 +1,7 @@
+{
+  "title": "Vote Counter",
+  "no_seggi": "Nessun seggio presente, aggiungine uno",
+  "no_seggio_sel": "Nessun seggio selezionato",
+  "seggio": "Seggio {{numseggio}}",
+  "add_seggio": "Crea un seggio"
+}

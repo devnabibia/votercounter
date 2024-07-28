@@ -1,0 +1,8 @@
+{
+  "name": "votecounter",
+  "app_id": "e72f4f12",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
